@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ProjectM7</string>
+    <string name="password">Password</string>
+    <string name="user">User</string>
+    <string name="crea_el_teu_usuari_aqu">Crea el teu usuari aquí</string>
+    <string name="sign_up">Sign Up</string>
+</resources>
