@@ -67,6 +67,7 @@
         android:id="@+id/txt_registre"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:onClick="formulariRegistre"
         android:text="@string/crea_el_teu_usuari_aqu"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
