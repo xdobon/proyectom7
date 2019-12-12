@@ -3,4 +3,86 @@
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <TextView
+        android:id="@+id/titol"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:labelFor="@id/titol"
+        android:text="@string/formulari_de_registre"
+        android:textSize="36sp" />
+
+    <TextView
+        android:id="@+id/tv_nom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:labelFor="@id/tv_nom"
+        android:text="@string/nom"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/txt_nom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName"
+        android:labelFor="@id/txt_nom" />
+
+    <TextView
+        android:id="@+id/tv_cognom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:labelFor="@id/tv_cognom"
+        android:text="@string/cognom"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/txt_cognom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:labelFor="@id/txt_cognom"
+        android:importantForAutofill="no" />
+
+    <TextView
+        android:id="@+id/tv_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:labelFor="@id/tv_username"
+        android:text="@string/username"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/txt_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:labelFor="@id/txt_username"
+        android:importantForAutofill="no" />
+
+    <TextView
+        android:id="@+id/tv_contrasenya"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:labelFor="@id/tv_contrasenya"
+        android:text="@string/contrasenya"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/txt_contrasenya"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:labelFor="@id/txt_contrasenya"
+        android:importantForAutofill="no" />
+
+    <Button
+        android:id="@+id/btn_registrar"
+        android:layout_width="134dp"
+        android:layout_height="wrap_content"
+        android:labelFor="@id/btn_registrar"
+        android:text="@string/registrar" />
 </LinearLayout>

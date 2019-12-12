@@ -4,4 +4,10 @@
     <string name="user">User</string>
     <string name="crea_el_teu_usuari_aqu">Crea el teu usuari aquí</string>
     <string name="sign_up">Sign Up</string>
+    <string name="formulari_de_registre">Formulari de registre</string>
+    <string name="nom">Nom:</string>
+    <string name="contrasenya">Contrasenya:</string>
+    <string name="username">Username:</string>
+    <string name="cognom">Cognom:</string>
+    <string name="registrar">Registrar</string>
 </resources>
