@@ -16,6 +16,9 @@ public class MainActivity extends AppCompatActivity {
     EditText username;
     EditText password;
     SharedPreferences prefs = getSharedPreferences("Usuarios", Context.MODE_PRIVATE);
+
+
+    
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
