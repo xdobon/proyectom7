@@ -2,7 +2,9 @@ package com.dobon.projectm7;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.Gravity;
 import android.view.View;
@@ -13,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
 
     EditText username;
     EditText password;
-
+    SharedPreferences prefs = getSharedPreferences("Usuarios", Context.MODE_PRIVATE);
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -33,6 +35,11 @@ public class MainActivity extends AppCompatActivity {
 
     }
     public void login(View view) {
+        SharedPreferences.Editor editor = prefs.edit();
+        String us = prefs.getString("user", String.valueOf(username));
+        String ps = prefs.getString("password", String.valueOf(username));
+        editor.commit();
+
 
         if(username.getText().toString().equals("admin") && password.getText().toString().equals("admin")){
             Intent intent = new Intent(this, Principal.class);

@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<resources>
+    <string name="nom">admin</string>
+    <string name="cognom">admin</string>
+    <string name="user">admin</string>
+    <string name="password">admin</string>
+</resources>
