@@ -8,17 +8,18 @@ import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.Gravity;
 import android.view.View;
+import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
-    EditText username;
-    EditText password;
-    SharedPreferences prefs = getSharedPreferences("Usuarios", Context.MODE_PRIVATE);
+    EditText etusername;
+    EditText etpassword;
+    Button login;
+    Button registre;
 
 
-    
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -26,8 +27,10 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-        username = findViewById(R.id.txt_User);
-        password = findViewById(R.id.txt_Password);
+        etusername = findViewById(R.id.txt_User);
+        etpassword = findViewById(R.id.txt_Password);
+        login = findViewById(R.id.btn_signup);
+        registre = findViewById(R.id.btn_registre);
 
     }
     public void formulariRegistre(View view) {
@@ -38,13 +41,14 @@ public class MainActivity extends AppCompatActivity {
 
     }
     public void login(View view) {
-        SharedPreferences.Editor editor = prefs.edit();
-        String us = prefs.getString("user", String.valueOf(username));
-        String ps = prefs.getString("password", String.valueOf(username));
-        editor.commit();
 
+        final String username = etusername.getText().toString();
+        final String password = etpassword.getText().toString();
 
-        if(username.getText().toString().equals("admin") && password.getText().toString().equals("admin")){
+        if(username.equals("admin") && password.equals("admin")){
+
+            saveLoginSharedPreferences(username);
+
             Intent intent = new Intent(this, Principal.class);
 
             startActivity(intent);
@@ -58,6 +62,13 @@ public class MainActivity extends AppCompatActivity {
         }
 
 
+
+    }
+    private void saveLoginSharedPreferences(String username){
+        SharedPreferences prefs = getPreferences(Context.MODE_PRIVATE);
+        SharedPreferences.Editor editor = prefs.edit();
+        editor.putString("username", username);
+        editor.apply();
 
     }
 

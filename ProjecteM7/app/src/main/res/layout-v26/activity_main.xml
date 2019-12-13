@@ -64,17 +64,16 @@
         app:layout_constraintTop_toBottomOf="@+id/txt_Password"
         app:layout_constraintVertical_bias="0.06" />
 
-    <TextView
-        android:id="@+id/txt_registre"
+    <Button
+        android:id="@+id/btn_registre"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:onClick="formulariRegistre"
-        android:text="@string/crea_el_teu_usuari_aqu"
+        android:text="@string/crea_el_teu_usuari"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.12"
+        app:layout_constraintHorizontal_bias="0.14"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.89" />
+        app:layout_constraintTop_toBottomOf="@+id/btn_signup" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

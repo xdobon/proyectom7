@@ -11,4 +11,8 @@
     <string name="cognom">Cognom:</string>
     <string name="registrar">Registrar</string>
     <string name="benvingut">Benvingut!!</string>
+    <string name="usertext">usertext</string>
+    <string name="crea_el_teu_usuari_aqui">Crea el teu usuari aqui</string>
+    <string name="crea_el_teu_usuari">Crea el teu usuari</string>
+
 </resources>
