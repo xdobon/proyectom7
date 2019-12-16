@@ -67,7 +67,8 @@ public class MainActivity extends AppCompatActivity {
     private void saveLoginSharedPreferences(String username){
         SharedPreferences prefs = getPreferences(Context.MODE_PRIVATE);
         SharedPreferences.Editor editor = prefs.edit();
-        editor.putString("username", username);
+        editor.putString("username", username);//guardar los datos
+        editor.commit();
         editor.apply();
 
     }

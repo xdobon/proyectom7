@@ -20,12 +20,14 @@ public class Registre extends AppCompatActivity {
     EditText cognom;
     EditText username;
     EditText contrasenya;
-    SharedPreferences prefs = getSharedPreferences("Usuarios", Context.MODE_PRIVATE);
+    SharedPreferences prefs ;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.registre);
+
+        prefs  = getSharedPreferences("Usuarios", Context.MODE_PRIVATE);
     }
 
     public void registrar(View view) {
