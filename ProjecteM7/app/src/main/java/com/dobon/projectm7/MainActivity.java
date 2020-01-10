@@ -49,7 +49,7 @@ public class MainActivity extends AppCompatActivity {
 
             saveLoginSharedPreferences(username);
 
-            Intent intent = new Intent(this, Principal.class);
+            Intent intent = new Intent(this, principal.class);
 
             startActivity(intent);
 
