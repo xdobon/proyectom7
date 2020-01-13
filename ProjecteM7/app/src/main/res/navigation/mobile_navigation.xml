@@ -24,12 +24,6 @@
         tools:layout="@layout/fragment_slideshow" />
 
     <fragment
-        android:id="@+id/nav_tools"
-        android:name="com.dobon.projectm7.ui.tools.ToolsFragment"
-        android:label="@string/menu_tools"
-        tools:layout="@layout/fragment_tools" />
-
-    <fragment
         android:id="@+id/nav_share"
         android:name="com.dobon.projectm7.ui.share.ShareFragment"
         android:label="@string/menu_share"
