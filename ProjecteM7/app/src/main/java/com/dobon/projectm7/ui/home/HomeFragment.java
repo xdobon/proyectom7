@@ -106,5 +106,5 @@ public class HomeFragment extends Fragment {
         mAdapter.notifyDataSetChanged(); // aquest metode permet ferli saber al recyclerview que han canviat coses, es a dir que ha de refrescar el llistat d'elements.
     }
 
-  
+
 }
