@@ -34,6 +34,28 @@
     <string name="ets_introvertit">Ets introvertit?</string>
     <string name="et_consideres_divertit">Et consideres divertit?</string>
     <string name="accepto_l_us_de_les_meves_dades">Accepto l\'us de les meves dades</string>
+    <string name="title_placeholder">Esports</string>
+    <string name="news_placeholder">Actividad</string>
+    <string name="sports_info_placeholder">sports</string>
 
+    <array name="sports_images">
+        <item>@drawable/futbol</item>
+        <item>@drawable/bolos</item>
+        <item>@drawable/fiesta</item>
+        <item>@drawable/feria</item>
+        <item>@drawable/cine</item>
+        <item>@drawable/basquet</item>
+        <item>@drawable/compras</item>
+    </array>
+
+    <string-array name="sports_info">
+        <item>Futbol</item>
+        <item>Bolos</item>
+        <item>Fiesta</item>
+        <item>Feria</item>
+        <item>Cine</item>
+        <item>Basquet</item>
+        <item>Compras</item>
+    </string-array>
 
 </resources>
