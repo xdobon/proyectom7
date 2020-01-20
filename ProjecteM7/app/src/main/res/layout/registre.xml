@@ -83,26 +83,26 @@
         android:id="@+id/tv_sexe"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Sexe:"
+        android:text="@string/sexe"
         android:textSize="24sp" />
 
     <RadioButton
         android:id="@+id/rb_home"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Home" />
+        android:text="@string/home" />
 
     <RadioButton
         android:id="@+id/rb_dona"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Dona" />
+        android:text="@string/dona" />
 
     <TextView
         android:id="@+id/textView4"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Frase  que mes et defineix:"
+        android:text="@string/frase_que_mes_et_defineix"
         android:textSize="24sp" />
 
     <Spinner
@@ -114,7 +114,7 @@
         android:id="@+id/tv_introvertit"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Ets introvertit?"
+        android:text="@string/ets_introvertit"
         android:textSize="24sp" />
 
     <SeekBar
@@ -127,19 +127,20 @@
         android:id="@+id/switch1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Et consideres divertit?"
+        android:text="@string/et_consideres_divertit"
         android:textSize="24sp" />
 
     <CheckBox
         android:id="@+id/checkBox"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Accepto l'us de les meves dades" />
+        android:text="@string/accepto_l_us_de_les_meves_dades" />
 
     <Button
         android:id="@+id/btn_registrar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:onClick="registrar"
         android:text="@string/registrar" />
 
 </LinearLayout>

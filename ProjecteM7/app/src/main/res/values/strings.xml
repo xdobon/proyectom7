@@ -27,6 +27,13 @@
     <string name="menu_slideshow">Crear Evento</string>
     <string name="menu_share">Cerrar Sesion</string>
     <string name="menu_send">Mi Perfil</string>
+    <string name="sexe">Sexe:</string>
+    <string name="home">Home</string>
+    <string name="dona">Dona</string>
+    <string name="frase_que_mes_et_defineix">Frase que mes et defineix:</string>
+    <string name="ets_introvertit">Ets introvertit?</string>
+    <string name="et_consideres_divertit">Et consideres divertit?</string>
+    <string name="accepto_l_us_de_les_meves_dades">Accepto l\'us de les meves dades</string>
 
 
 </resources>

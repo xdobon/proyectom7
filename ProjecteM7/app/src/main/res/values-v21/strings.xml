@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="frase_que_mes_et_defineix">Frase que mes et defineix:</string>
+    <string name="ets_introvertit">Ets introvertit?</string>
+    <string name="et_consideres_divertit">Et consideres divertit?</string>
+    <string name="accepto_l_us_de_les_meves_dades">Accepto l\'us de les meves dades</string>
+</resources>
