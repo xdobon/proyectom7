@@ -9,7 +9,8 @@
         android:layout_height="wrap_content"
         android:labelFor="@id/titol"
         android:text="@string/formulari_de_registre"
-        android:textSize="36sp" />
+        android:textSize="36sp"
+        android:fontFamily="sans-serif-condensed-light"/>
 
     <TextView
         android:id="@+id/tv_nom"
@@ -17,7 +18,8 @@
         android:layout_height="wrap_content"
         android:labelFor="@id/tv_nom"
         android:text="@string/nom"
-        android:textSize="24sp" />
+        android:textSize="24sp"
+        android:fontFamily="sans-serif-condensed-light"/>
 
     <EditText
         android:id="@+id/txt_nom"
@@ -26,7 +28,8 @@
         android:ems="10"
         android:importantForAutofill="no"
         android:inputType="textPersonName"
-        android:labelFor="@id/txt_nom" />
+        android:labelFor="@id/txt_nom"
+        android:fontFamily="sans-serif-condensed-light"/>
 
     <TextView
         android:id="@+id/tv_cognom"
@@ -34,7 +37,8 @@
         android:layout_height="wrap_content"
         android:labelFor="@id/tv_cognom"
         android:text="@string/cognom"
-        android:textSize="24sp" />
+        android:textSize="24sp"
+        android:fontFamily="sans-serif-condensed-light"/>
 
     <EditText
         android:id="@+id/txt_cognom"
@@ -43,7 +47,8 @@
         android:ems="10"
         android:inputType="textPersonName"
         android:labelFor="@id/txt_cognom"
-        android:importantForAutofill="no" />
+        android:importantForAutofill="no"
+        android:fontFamily="sans-serif-condensed-light"/>
 
     <TextView
         android:id="@+id/tv_username"
@@ -51,7 +56,8 @@
         android:layout_height="wrap_content"
         android:labelFor="@id/tv_username"
         android:text="@string/username"
-        android:textSize="24sp" />
+        android:textSize="24sp"
+        android:fontFamily="sans-serif-condensed-light"/>
 
     <EditText
         android:id="@+id/txt_username"
@@ -60,7 +66,8 @@
         android:ems="10"
         android:inputType="textPersonName"
         android:labelFor="@id/txt_username"
-        android:importantForAutofill="no" />
+        android:importantForAutofill="no"
+        android:fontFamily="sans-serif-condensed-light"/>
 
     <TextView
         android:id="@+id/tv_contrasenya"
@@ -68,7 +75,8 @@
         android:layout_height="wrap_content"
         android:labelFor="@id/tv_contrasenya"
         android:text="@string/contrasenya"
-        android:textSize="24sp" />
+        android:textSize="24sp"
+        android:fontFamily="sans-serif-condensed-light"/>
 
     <EditText
         android:id="@+id/txt_contrasenya"
@@ -77,14 +85,16 @@
         android:ems="10"
         android:inputType="textPassword"
         android:labelFor="@id/txt_contrasenya"
-        android:importantForAutofill="no" />
+        android:importantForAutofill="no"
+        android:fontFamily="sans-serif-condensed-light"/>
 
     <TextView
         android:id="@+id/tv_sexe"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/sexe"
-        android:textSize="24sp" />
+        android:textSize="24sp"
+        android:fontFamily="sans-serif-condensed-light"/>
 
     <RadioButton
         android:id="@+id/rb_home"
@@ -103,7 +113,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/frase_que_mes_et_defineix"
-        android:textSize="24sp" />
+        android:textSize="24sp"
+        android:fontFamily="sans-serif-condensed-light"/>
 
     <Spinner
         android:id="@+id/sp_frase"
@@ -115,7 +126,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/ets_introvertit"
-        android:textSize="24sp" />
+        android:textSize="24sp"
+        android:fontFamily="sans-serif-condensed-light"/>
 
     <SeekBar
         android:id="@+id/seekBar"
