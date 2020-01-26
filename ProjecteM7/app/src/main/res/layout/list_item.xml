@@ -2,7 +2,11 @@
 <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:layout_margin="8dp">
+    android:layout_margin="8dp"
+    android:elevation="8dp"
+    style="@style/Widget.Shrine.TextInputLayout"
+    >
+
 
     <!--Canviem el LinearLayout a RelativeLayout, i eliminem el atribut "orientation"-->
 
@@ -19,14 +23,14 @@
         </ImageView>
 
         <TextView
+            style="@style/Widget.Shrine.TextInputLayout"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignBottom="@+id/sportsImage"
             android:id="@+id/title"
             android:text="@string/title_placeholder"
             android:padding="8dp"
-            style="@style/TextAppearance.AppCompat.Headline"
-             />
+            />
 
         <TextView
             android:layout_width="wrap_content"
@@ -36,8 +40,8 @@
             android:textColor="?android:textColorSecondary"
             android:text="@string/news_placeholder"
             android:padding="8dp"
-            style="@style/TextAppearance.AppCompat.Subhead"
-             />
+            style="@style/Widget.Shrine.TextInputLayout"
+            />
 
         <TextView
             android:layout_width="wrap_content"
@@ -46,7 +50,7 @@
             android:id="@+id/subTitle"
             android:text="@string/sports_info_placeholder"
             android:padding="8dp"
-            style="@style/TextAppearance.AppCompat.Subhead" />
+            style="@style/Widget.Shrine.TextInputLayout"/>
 
     </RelativeLayout>
 
