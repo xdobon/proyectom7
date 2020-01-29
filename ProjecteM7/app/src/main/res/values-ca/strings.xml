@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ProjecteM7</string>
+    <string name="accepto_l_us_de_les_meves_dades">Accepto l\'us de les meves dades</string>
+    <string name="benvingut">Benvingut!</string>
+    <string name="cognom">Cognom:</string>
+    <string name="contrasenya">Contrasenya:</string>
+    <string name="crea_el_teu_usuari">Crea el teu usuari</string>
+    <string name="crea_el_teu_usuari_aqu">Crea el teu usuari aquí</string>
+    <string name="crea_el_teu_usuari_aqui">Crea el teu usuari aqui</string>
+    <string name="dona">Dona</string>
+    <string name="et_consideres_divertit">Et consideres divertit?</string>
+    <string name="ets_introvertit">Ets introvertit?</string>
+    <string name="formulari_de_registre">Formulari de registre</string>
+    <string name="frase_que_mes_et_defineix">Frase que mes et defineix:</string>
+    <string name="home">Home</string>
+    <string name="nom">Nom:</string>
+    <string name="registrar">Registrar</string>
+    <string name="sexe">Sexe:</string>
+    <string name="title_activity_principal">principal</string>
+    <string name="action_settings">Ajustos</string>
+    <string name="menu_gallery">Els meus events</string>
+    <string name="menu_home">Inici</string>
+    <string name="menu_send">El meu perfil</string>
+    <string name="menu_share">Tancar sessió</string>
+    <string name="menu_slideshow">Crear event</string>
+    <string name="news_placeholder">Activitat</string>
+    <string name="password">Contrasenya:</string>
+    <string name="sign_up">Registrar</string>
+    <string name="title_placeholder">Esports</string>
+    <string name="user">Usuari</string>
+    <string name="username">Nombre de usuario:</string>
+</resources>

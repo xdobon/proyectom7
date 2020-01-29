@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ProjectM7</string>
+    <string name="action_settings">Settings</string>
+    <string name="benvingut">Welcome!</string>
+    <string name="password">Password</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="user">User</string>
+    <string name="username">Username:</string>
+    <string name="accepto_l_us_de_les_meves_dades">Accepted the use of my data</string>
+    <string name="cognom">Last name:</string>
+    <string name="contrasenya">Password:</string>
+    <string name="crea_el_teu_usuari">Make your user</string>
+    <string name="crea_el_teu_usuari_aqu">Make your user</string>
+    <string name="crea_el_teu_usuari_aqui">Make your user</string>
+    <string name="dona">Women</string>
+    <string name="home">Men</string>
+    <string name="menu_gallery">My events</string>
+    <string name="menu_home">Start</string>
+    <string name="menu_send">My profile</string>
+    <string name="menu_share">Sign out</string>
+    <string name="menu_slideshow">Make event</string>
+    <string name="news_placeholder">Activity</string>
+    <string name="nom">Name:</string>
+    <string name="registrar">Sign Up</string>
+    <string name="sexe">Sexology:</string>
+    <string name="title_activity_principal">first page</string>
+    <string name="title_placeholder">Sports</string>
+    <string name="et_consideres_divertit">Do you consider yourself fun?</string>
+    <string name="ets_introvertit">Are you introverted?</string>
+    <string name="formulari_de_registre">Sign up form</string>
+    <string name="frase_que_mes_et_defineix">Phrase that defines you</string>
+</resources>

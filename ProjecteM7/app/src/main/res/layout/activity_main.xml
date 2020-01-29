@@ -86,4 +86,33 @@
         app:layout_constraintTop_toBottomOf="@+id/btn_signup"
         android:fontFamily="sans-serif-condensed-light"/>
 
+    <Button
+        android:id="@+id/button_en"
+        android:layout_width="54dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="30dp"
+        android:background="@drawable/bottom_en"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btn_registre"
+        app:layout_constraintTop_toBottomOf="@+id/btn_signup" />
+
+    <Button
+        android:id="@+id/button_es"
+        android:layout_width="54dp"
+        android:layout_height="54dp"
+        android:background="@drawable/bottom_es"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/button_en"
+        app:layout_constraintTop_toBottomOf="@+id/btn_signup" />
+
+    <Button
+        android:id="@+id/button_cat"
+        android:layout_width="54dp"
+        android:layout_height="54dp"
+        android:background="@drawable/bottom_cat"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/button_es"
+        app:layout_constraintTop_toBottomOf="@+id/btn_signup" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

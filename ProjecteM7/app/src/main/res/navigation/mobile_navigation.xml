@@ -34,4 +34,9 @@
         android:name="com.dobon.projectm7.ui.send.SendFragment"
         android:label="@string/menu_send"
         tools:layout="@layout/fragment_send" />
+    <fragment
+        android:id="@+id/fragment_settings"
+        android:name="com.dobon.projectm7.BlankFragment"
+        android:label="fragment_settings"
+        tools:layout="@layout/fragment_settings" />
 </navigation>
