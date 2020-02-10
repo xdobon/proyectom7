@@ -6,6 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
+
     <EditText
         android:id="@+id/txt_Password"
 
@@ -14,13 +15,16 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="64dp"
         android:autofillHints=""
+        android:contentDescription="@string/password"
         android:ems="10"
+        android:fontFamily="sans-serif-condensed-light"
         android:inputType="textPassword"
         android:labelFor="@id/txt_Password"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txt_User"
-        android:fontFamily="sans-serif-condensed-light" tools:targetApi="o"/>
+        tools:targetApi="o"
+        />
 
     <EditText
         android:id="@+id/txt_User"
@@ -28,40 +32,48 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="250dp"
+        android:contentDescription="@string/user"
         android:ems="10"
+        android:fontFamily="sans-serif-condensed-light"
         android:importantForAutofill="no"
         android:inputType="textPersonName"
         android:labelFor="@id/txt_User"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:fontFamily="sans-serif-condensed-light"/>
+        />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/tv_user"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:contentDescription="@string/user"
         android:fontFamily="sans-serif-condensed-light"
         android:text="@string/user"
         app:layout_constraintBottom_toTopOf="@+id/txt_User"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/tv_password"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="2dp"
+        android:contentDescription="@string/password"
+        android:fontFamily="sans-serif-condensed-light"
         android:text="@string/password"
         app:layout_constraintBottom_toTopOf="@+id/txt_Password"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        android:fontFamily="sans-serif-condensed-light"/>
+        />
 
     <Button
         android:id="@+id/btn_signup"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:contentDescription="@string/sign_up"
+        android:fontFamily="sans-serif-condensed-light"
         android:onClick="login"
         android:text="@string/sign_up"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -70,13 +82,15 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txt_Password"
         app:layout_constraintVertical_bias="0.06"
-        android:fontFamily="sans-serif-condensed-light"/>
+        />
 
     <Button
 
         android:id="@+id/btn_registre"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:contentDescription="@string/crea_el_teu_usuari"
+        android:fontFamily="sans-serif-condensed-light"
         android:onClick="formulariRegistre"
         android:text="@string/crea_el_teu_usuari"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -84,38 +98,48 @@
         app:layout_constraintHorizontal_bias="0.14"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btn_signup"
-        android:fontFamily="sans-serif-condensed-light"/>
+        />
 
     <Button
         android:id="@+id/button_en"
         android:layout_width="54dp"
         android:layout_height="54dp"
         android:layout_marginStart="30dp"
+        android:layout_marginEnd="6dp"
         android:background="@drawable/bottom_en"
+        android:contentDescription="@string/language_english"
         android:onClick="cambiaEn"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/button_es"
         app:layout_constraintStart_toEndOf="@+id/btn_registre"
-        app:layout_constraintTop_toBottomOf="@+id/btn_signup" />
+        app:layout_constraintTop_toBottomOf="@+id/btn_signup"
+        />
 
     <Button
         android:id="@+id/button_es"
         android:layout_width="54dp"
         android:layout_height="54dp"
+        android:layout_marginEnd="20dp"
         android:background="@drawable/bottom_es"
+        android:contentDescription="@string/language_spanish"
         android:onClick="cambiaEsp"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/button_cat"
         app:layout_constraintStart_toEndOf="@+id/button_en"
-        app:layout_constraintTop_toBottomOf="@+id/btn_signup" />
+        app:layout_constraintTop_toBottomOf="@+id/btn_signup"
+        />
 
     <Button
         android:id="@+id/button_cat"
         android:layout_width="54dp"
         android:layout_height="54dp"
         android:background="@drawable/bottom_cat"
+        android:contentDescription="@string/language_catalan"
         android:onClick="cambiaCat"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/button_es"
-        app:layout_constraintTop_toBottomOf="@+id/btn_signup" />
+        app:layout_constraintTop_toBottomOf="@+id/btn_signup"
+        />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

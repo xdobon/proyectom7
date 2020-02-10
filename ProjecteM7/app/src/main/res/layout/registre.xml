@@ -7,152 +7,198 @@
         android:id="@+id/titol"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:contentDescription="@string/formulari_de_registre"
+        android:fontFamily="sans-serif-condensed-light"
         android:labelFor="@id/titol"
         android:text="@string/formulari_de_registre"
         android:textSize="36sp"
-        android:fontFamily="sans-serif-condensed-light"/>
+        />
 
     <TextView
         android:id="@+id/tv_nom"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:contentDescription="@string/nom"
+        android:fontFamily="sans-serif-condensed-light"
         android:labelFor="@id/tv_nom"
         android:text="@string/nom"
         android:textSize="24sp"
-        android:fontFamily="sans-serif-condensed-light"/>
+        />
 
     <EditText
         android:id="@+id/txt_nom"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:contentDescription="@string/nom"
         android:ems="10"
+        android:fontFamily="sans-serif-condensed-light"
         android:importantForAutofill="no"
         android:inputType="textPersonName"
         android:labelFor="@id/txt_nom"
-        android:fontFamily="sans-serif-condensed-light"/>
+        android:minHeight="48dp"
+        />
 
     <TextView
         android:id="@+id/tv_cognom"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:contentDescription="@string/cognom"
+        android:fontFamily="sans-serif-condensed-light"
         android:labelFor="@id/tv_cognom"
         android:text="@string/cognom"
         android:textSize="24sp"
-        android:fontFamily="sans-serif-condensed-light"/>
+        />
 
     <EditText
         android:id="@+id/txt_cognom"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:contentDescription="@string/cognom"
         android:ems="10"
+        android:fontFamily="sans-serif-condensed-light"
+        android:importantForAutofill="no"
         android:inputType="textPersonName"
         android:labelFor="@id/txt_cognom"
-        android:importantForAutofill="no"
-        android:fontFamily="sans-serif-condensed-light"/>
+        android:minHeight="48dp"
+        />
 
     <TextView
         android:id="@+id/tv_username"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:contentDescription="@string/username"
+        android:fontFamily="sans-serif-condensed-light"
         android:labelFor="@id/tv_username"
         android:text="@string/username"
         android:textSize="24sp"
-        android:fontFamily="sans-serif-condensed-light"/>
+        />
 
     <EditText
         android:id="@+id/txt_username"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:contentDescription="@string/username"
         android:ems="10"
+        android:fontFamily="sans-serif-condensed-light"
+        android:importantForAutofill="no"
         android:inputType="textPersonName"
         android:labelFor="@id/txt_username"
-        android:importantForAutofill="no"
-        android:fontFamily="sans-serif-condensed-light"/>
+        android:minHeight="48dp"
+        />
 
     <TextView
         android:id="@+id/tv_contrasenya"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:contentDescription="@string/contrasenya"
+        android:fontFamily="sans-serif-condensed-light"
         android:labelFor="@id/tv_contrasenya"
         android:text="@string/contrasenya"
         android:textSize="24sp"
-        android:fontFamily="sans-serif-condensed-light"/>
+        />
 
     <EditText
         android:id="@+id/txt_contrasenya"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:contentDescription="@string/contrasenya"
         android:ems="10"
+        android:fontFamily="sans-serif-condensed-light"
+        android:importantForAutofill="no"
         android:inputType="textPassword"
         android:labelFor="@id/txt_contrasenya"
-        android:importantForAutofill="no"
-        android:fontFamily="sans-serif-condensed-light"/>
+        android:minHeight="48dp"
+        />
 
     <TextView
         android:id="@+id/tv_sexe"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:contentDescription="@string/sexe"
+        android:fontFamily="sans-serif-condensed-light"
         android:text="@string/sexe"
         android:textSize="24sp"
-        android:fontFamily="sans-serif-condensed-light"/>
+        />
 
     <RadioButton
         android:id="@+id/rb_home"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/home" />
+        android:contentDescription="@string/home"
+        android:minHeight="48dp"
+        android:text="@string/home"
+        />
 
     <RadioButton
         android:id="@+id/rb_dona"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/dona" />
+        android:contentDescription="@string/dona"
+        android:minHeight="48dp"
+        android:text="@string/dona"
+        />
 
     <TextView
         android:id="@+id/textView4"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:contentDescription="@string/frase_que_mes_et_defineix"
+        android:fontFamily="sans-serif-condensed-light"
         android:text="@string/frase_que_mes_et_defineix"
         android:textSize="24sp"
-        android:fontFamily="sans-serif-condensed-light"/>
+        />
 
     <Spinner
         android:id="@+id/sp_frase"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        />
 
     <TextView
         android:id="@+id/tv_introvertit"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:contentDescription="@string/ets_introvertit"
+        android:fontFamily="sans-serif-condensed-light"
         android:text="@string/ets_introvertit"
         android:textSize="24sp"
-        android:fontFamily="sans-serif-condensed-light"/>
+        />
 
     <SeekBar
         android:id="@+id/seekBar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:indeterminate="false" />
+        android:indeterminate="false"
+        android:minHeight="48dp"
+        />
 
     <Switch
         android:id="@+id/switch1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:contentDescription="@string/et_consideres_divertit"
+        android:minHeight="48dp"
         android:text="@string/et_consideres_divertit"
-        android:textSize="24sp" />
+        android:textSize="24sp"
+        />
 
     <CheckBox
         android:id="@+id/checkBox"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/accepto_l_us_de_les_meves_dades" />
+        android:layout_height="121dp"
+        android:contentDescription="@string/accepto_l_us_de_les_meves_dades"
+        android:minHeight="48dp"
+        android:text="@string/accepto_l_us_de_les_meves_dades"
+        />
 
     <Button
         android:id="@+id/btn_registrar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:onClick="registrar"
-        android:text="@string/registrar" />
+        android:text="@string/registrar"
+        android:minHeight="48dp"
+        />
 
 </LinearLayout>

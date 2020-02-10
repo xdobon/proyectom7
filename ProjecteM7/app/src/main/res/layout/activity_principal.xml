@@ -32,7 +32,8 @@
         android:fitsSystemWindows="true"
         app:headerLayout="@layout/nav_header_principal"
         app:menu="@menu/activity_principal_drawer"
-        android:fontFamily="sans-serif-condensed-light">
+        android:fontFamily="sans-serif-condensed-light"
+        android:minHeight="48dp">
 
     </com.google.android.material.navigation.NavigationView>
 
