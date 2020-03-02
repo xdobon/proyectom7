@@ -63,28 +63,26 @@
         />
 
     <TextView
-        android:id="@+id/tv_username"
+        android:id="@+id/tv_correu"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:contentDescription="@string/username"
+        android:contentDescription="@string/correu_electronic"
         android:fontFamily="sans-serif-condensed-light"
-        android:labelFor="@id/tv_username"
-        android:text="@string/username"
-        android:textSize="24sp"
-        />
+        android:labelFor="@id/tv_correu"
+        android:text="@string/correu_electronic"
+        android:textSize="24sp" />
 
     <EditText
-        android:id="@+id/txt_username"
+        android:id="@+id/txt_correu"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:contentDescription="@string/username"
+        android:contentDescription="@string/correu_electronic"
         android:ems="10"
         android:fontFamily="sans-serif-condensed-light"
         android:importantForAutofill="no"
         android:inputType="textPersonName"
-        android:labelFor="@id/txt_username"
-        android:minHeight="48dp"
-        />
+        android:labelFor="@id/txt_correu"
+        android:minHeight="48dp" />
 
     <TextView
         android:id="@+id/tv_contrasenya"
@@ -138,67 +136,20 @@
         android:text="@string/dona"
         />
 
-    <TextView
-        android:id="@+id/textView4"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:contentDescription="@string/frase_que_mes_et_defineix"
-        android:fontFamily="sans-serif-condensed-light"
-        android:text="@string/frase_que_mes_et_defineix"
-        android:textSize="24sp"
-        />
-
-    <Spinner
-        android:id="@+id/sp_frase"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:minHeight="48dp"
-        />
-
-    <TextView
-        android:id="@+id/tv_introvertit"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:contentDescription="@string/ets_introvertit"
-        android:fontFamily="sans-serif-condensed-light"
-        android:text="@string/ets_introvertit"
-        android:textSize="24sp"
-        />
-
-    <SeekBar
-        android:id="@+id/seekBar"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:indeterminate="false"
-        android:minHeight="48dp"
-        />
-
-    <Switch
-        android:id="@+id/switch1"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:contentDescription="@string/et_consideres_divertit"
-        android:minHeight="48dp"
-        android:text="@string/et_consideres_divertit"
-        android:textSize="24sp"
-        />
-
     <CheckBox
         android:id="@+id/checkBox"
         android:layout_width="match_parent"
-        android:layout_height="121dp"
+        android:layout_height="wrap_content"
         android:contentDescription="@string/accepto_l_us_de_les_meves_dades"
         android:minHeight="48dp"
-        android:text="@string/accepto_l_us_de_les_meves_dades"
-        />
+        android:text="@string/accepto_l_us_de_les_meves_dades" />
 
     <Button
         android:id="@+id/btn_registrar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:onClick="registrar"
-        android:text="@string/registrar"
         android:minHeight="48dp"
-        />
+        android:onClick="registrar"
+        android:text="@string/registrar" />
 
 </LinearLayout>

@@ -40,6 +40,7 @@
     <string name="language_english">language english</string>
     <string name="language_spanish">language spanish</string>
     <string name="language_catalan">language catalan</string>
+    <string name="correu_electronic">Correu electronic</string>
 
     <array name="sports_images">
         <item>@drawable/futbol</item>

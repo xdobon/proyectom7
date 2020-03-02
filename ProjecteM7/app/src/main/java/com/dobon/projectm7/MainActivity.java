@@ -49,9 +49,7 @@ public class MainActivity extends AppCompatActivity {
         final String username = etusername.getText().toString();
         final String password = etpassword.getText().toString();
 
-        if(username.equals("admin") && password.equals("admin")){
-
-            saveLoginSharedPreferences(username);
+        if(username.equals("dobon.ortega.xavier@alumnat.copernic.cat") && password.equals("poligono1")){
 
             Intent intent = new Intent(this, principal.class);
 
@@ -68,14 +66,7 @@ public class MainActivity extends AppCompatActivity {
 
 
     }
-    private void saveLoginSharedPreferences(String username){
-        SharedPreferences prefs = getPreferences(Context.MODE_PRIVATE);
-        SharedPreferences.Editor editor = prefs.edit();
-        editor.putString("username", username);//guardar los datos
-        editor.commit();
-        editor.apply();
 
-    }
     public void cambiaCat(View view) {
         Locale catalan = new Locale("ca", "CA");
         Locale.setDefault(catalan);

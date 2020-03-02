@@ -30,4 +30,5 @@
     <string name="title_placeholder">Deporte</string>
     <string name="user">Usuario</string>
     <string name="username">Nombre de usuario:</string>
+    <string name="correu_electronic">Correo Electronico</string>
 </resources>
