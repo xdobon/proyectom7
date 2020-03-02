@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "221145136237",
+    "firebase_url": "https://evenapp-3774f.firebaseio.com",
+    "project_id": "evenapp-3774f",
+    "storage_bucket": "evenapp-3774f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:221145136237:android:fad5adbfc747179ff71364",
+        "android_client_info": {
+          "package_name": "com.dobon.projectm7"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "221145136237-q5n1jbiemhihdhp0q1bnghacqr8k8lut.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCE1i5-NrBDpfWG5HysOgnaSN5S9eXMHeI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "221145136237-q5n1jbiemhihdhp0q1bnghacqr8k8lut.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
